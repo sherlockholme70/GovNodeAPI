@@ -12,10 +12,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 /* Request handled */
-app.get('/',function(req,res){
+/*app.get('/',function(req,res){
  //res.json(`Home Page Of Northbbsr`);
     console.log("Home Page");
-}
+}*/
 
 
 app.post('/api/sendotp',function(req,response){
