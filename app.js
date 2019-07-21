@@ -5,6 +5,7 @@ const express = require("express");
 const bodyParser = require("body-parser")
 const axios = require("axios");
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 /* Use Middleware */
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -90,7 +91,7 @@ app.post("/api/sendtext",function(req,response){
 
 })
 
-app.listen(3000,function(){
+app.listen(PORT,function(){
     console.log("server started on port 3000...");
 });
 
