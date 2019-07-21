@@ -13,7 +13,7 @@ app.use(cors());
 
 /* Request handled */
 app.get('/',function(req,res){
- res.send(`<h1> Home Page Of Northbbsr </h1>`);
+ res.send(`Home Page Of Northbbsr`);
     console.log("Home Page");
 }
 
