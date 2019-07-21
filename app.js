@@ -94,7 +94,6 @@ app.listen(3000,function(){
     console.log("server started on port 3000...");
 });
 
-
     // var options = {
     // "method": "POST",
     // "hostname": "control.msg91.com",
@@ -118,6 +117,3 @@ app.listen(3000,function(){
 
     // req.end();
     // res.send("SUCCESS");
-
-
-   
