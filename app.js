@@ -12,6 +12,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 /* Request handled */
+app.get('/',function(req,res){
+ res.send(`<h1> Home Page Of Northbbsr </h1>`);
+    console.log("Home Page");
+}
+
+
 app.post('/api/sendotp',function(req,response){
     console.log("=========================");
     console.log("send otp post");
