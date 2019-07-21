@@ -13,7 +13,7 @@ app.use(cors());
 
 /* Request handled */
 app.get('/',function(req,res){
- res.json(`Home Page Of Northbbsr`);
+ //res.json(`Home Page Of Northbbsr`);
     console.log("Home Page");
 }
 
